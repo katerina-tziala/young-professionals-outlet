@@ -12,11 +12,11 @@
     "prebuild": "rimraf app/*",
     "copy-backend-index": "ncp backend/index.js app/index.js",
     "copy-backend-package": "ncp backend/package.json app/package.json",
-    "build-backend": "npm run copy-backend-index && npm run copy-backend-package",
+    "copy-procfile": "ncp backend/Procfile app/Procfile",
+    "build-backend": "npm run copy-backend-index && npm run copy-backend-package && npm run copy-procfile",
     "frontend-dev": "cd frontend && npm run build --prod && move build ../backend/build",
     "build-frontend": "cd frontend && npm run build --prod && move build ../app/build",
-    "build-app": "npm run prebuild && npm run build-backend && npm run build-frontend",
-    "start-build-local": "npm run build-app && cd app && npm run start"
+    "build": "npm run prebuild && npm run build-backend && npm run build-frontend"
   },
   "devDependencies": {
     "move-cli": "^1.2.1",
