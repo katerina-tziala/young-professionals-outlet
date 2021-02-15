@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/katerina-tziala/young-professionals-outlet/tree/master/backend"
   },
   "author": "Katerina Tziala",
   "main": "index.js",

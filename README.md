@@ -1,4 +1,4 @@
-# YOUNG PROFESSIONALS OUTLET
+# <img src="https://github.com/katerina-tziala/young-professionals-outlet/blob/master/app/build/logo192.png" alt="ypo logo" width="44" height="44" align="left">YOUNG PROFESSIONALS OUTLET
 
 A Progressive Web App for e-commerce using React.js and the [fakestoreapi](https://fakestoreapi.com/).
 Access the *Young Professionals Outlet App* here: [**YOUNG PROFESSIONALS OUTLET**](https://young-professionals-outlet.herokuapp.com/)
