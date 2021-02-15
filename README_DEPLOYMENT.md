@@ -63,7 +63,10 @@ To deploy the *Young Professionals Outlet App* on **Heroku** use your terminal f
 
 6. Commit your changes on your own repo on [**GitHub**](https://github.com/) for this app, maintaining the structure of this repository.
 
-7. Run ***heroku login*** to login to your **Heroku** account.
+7. To login in your **Heroku** account, run:
+    ```
+    heroku login
+    ```
 
 8. Run ***git subtree push --prefix app heroku master*** to deploy the *Young Professionals Outlet App* from the **app** directory of this repository on **Heroku**.
 
