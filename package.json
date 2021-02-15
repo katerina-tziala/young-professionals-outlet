@@ -16,7 +16,8 @@
     "build-backend": "npm run copy-backend-index && npm run copy-backend-package && npm run copy-procfile",
     "frontend-dev": "cd frontend && npm run build --prod && move build ../backend/build",
     "build-frontend": "cd frontend && npm run build --prod && move build ../app/build",
-    "build": "npm run prebuild && npm run build-backend && npm run build-frontend"
+    "build": "npm run prebuild && npm run build-backend && npm run build-frontend",
+    "logs:prod": "heroku logs --tail"
   },
   "devDependencies": {
     "move-cli": "^1.2.1",
