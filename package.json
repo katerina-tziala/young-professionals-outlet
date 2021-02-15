@@ -1,5 +1,5 @@
 {
-  "name": "my-appyoung-professionals-outlet",
+  "name": "young-professionals-outlet",
   "version": "1.0.0",
   "private": true,
   "repository": {
@@ -9,12 +9,18 @@
   "author": "Katerina Tziala",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-backend-index": "ncp src/backend/index.js app/index.js",
-    "copy-backend-package": "ncp src/backend/package.json app/package.json",
-    "dist-backend": "npm run copy-backend-index && npm run copy-backend-index",
-    "bundle-app": "npm run copy-backend-index && npm run copy-backend-index"
+    "prebuild": "rimraf app/*",
+    "copy-backend-index": "ncp backend/index.js app/index.js",
+    "copy-backend-package": "ncp backend/package.json app/package.json",
+    "build-backend": "npm run copy-backend-index && npm run copy-backend-package",
+    "frontend-dev": "cd frontend && npm run build --prod && move build ../backend/build",
+    "build-frontend": "cd frontend && npm run build --prod && move build ../app/build",
+    "build-app": "npm run prebuild && npm run build-backend && npm run build-frontend",
+    "start-build-local": "npm run build-app && cd app && npm run start"
   },
   "devDependencies": {
-    "ncp": "^2.0.0"
+    "move-cli": "^1.2.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^3.0.2"
   }
 }
