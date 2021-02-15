@@ -1,0 +1,24 @@
+.home-hero-image {
+  height: 60vh;
+  width: 100%;
+  background-image: url("../../images/hero-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1663e0;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-hero-image {
+    height: 40vh;
+    background-size: content;
+  }
+}

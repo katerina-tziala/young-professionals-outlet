@@ -1,0 +1,20 @@
+{
+  "name": "my-appyoung-professionals-outlet",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Katerina Tziala",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-backend-index": "ncp src/backend/index.js app/index.js",
+    "copy-backend-package": "ncp src/backend/package.json app/package.json",
+    "dist-backend": "npm run copy-backend-index && npm run copy-backend-index",
+    "bundle-app": "npm run copy-backend-index && npm run copy-backend-index"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0"
+  }
+}
