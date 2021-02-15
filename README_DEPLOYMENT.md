@@ -1,7 +1,7 @@
 # Deploy the Young Professionals Outlet App on Heroku
 
 The *Young Professionals Outlet App* is deployed on [**Heroku Platform**](https://www.heroku.com/platform) from the **app** directory. To deploy this app on **Heroku** according to the following directions, make sure that you maintain the structure of this repository.<br/>
-**Note:** The **Procfile** in the **src** directory is required to specify the required commands for **Heroku**  to run and start your app and must be copied in the **app** directory!
+**Note:** The **Procfile** in the root directory is required to specify the required commands for **Heroku**  to run and start your app and must be copied in the **app** directory!
 
 To deploy the *Young Professionals Outlet App* on **Heroku** use your terminal from the root directory of your repository to execute the following commands. If you use [**Visual Studio Code**](https://code.visualstudio.com/), install the [**Heroku plugin**](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-heroku) and use the *Terminal* provided by the **Visual Studio Code**.
 
@@ -30,8 +30,6 @@ To deploy the *Young Professionals Outlet App* on **Heroku** use your terminal f
 6. Run ***heroku git:remote -a YOUR_OWN_HEROKU_APP*** to set a git a remote for your **Heroku** app.
 
 
-
-
 ### Step C: Deploy the App
 
 1. Add the following line in the **package.json** file located in the **backend** directory:
@@ -54,36 +52,14 @@ To deploy the *Young Professionals Outlet App* on **Heroku** use your terminal f
     npm i
     ```
 
-3. To install the dependencies for the backend side of the app, navigate from your terminal inside the /backend directory and run:
+3. Make sure the dependencies for the frontend and backend sides of the app are installed.
 
-    ```
-    npm install
-    ```
-
-    or
-
-    ```
-    npm i
-    ```
-
-4. To install the dependencies for the frontend side of the app, navigate from your terminal inside the /frontend directory and run:
-
-    ```
-    npm install
-    ```
-
-    or
-
-    ```
-    npm i
-    ```
 
 5. To build the app, run from the project's root directory:
 
     ```
     npm run build
     ```
-
 
 6. Commit your changes on your own repo on [**GitHub**](https://github.com/) for this app, maintaining the structure of this repository.
 

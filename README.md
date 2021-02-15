@@ -68,3 +68,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. To install the dependencies for the backend side of the app, navigate from your terminal inside the /backend directory and run:
+
+    ```
+    npm install
+    ```
+
+    or
+
+    ```
+    npm i
+    ```
+
+4. To install the dependencies for the frontend side of the app, navigate from your terminal inside the /frontend directory and run:
+
+    ```
+    npm install
+    ```
+
+    or
+
+    ```
+    npm i
+    ```
