@@ -1,6 +1,9 @@
 # <img src="https://github.com/katerina-tziala/young-professionals-outlet/blob/master/app/build/logo192.png" alt="ypo logo" width="44" height="44" align="left">Young Professionals Outlet
 
-A Progressive Web App for e-commerce using React.js and the [fakestoreapi](https://fakestoreapi.com/).</br>
+A Progressive Web App for e-commerce using React.js and the [fakestoreapi](https://fakestoreapi.com/).
+<p align="center">
+    <img src="https://github.com/katerina-tziala/young-professionals-outlet/blob/master/young-professionals-outlet-overview.png" alt="young professionals outlet overview" width="80%" height="auto">
+</p>
 Access the *Young Professionals Outlet App* here: [**Young Professionals Outlet**](https://young-professionals-outlet.herokuapp.com/)
 
 ## Prerequisites
