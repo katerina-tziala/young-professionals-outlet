@@ -28,4 +28,4 @@ Here’s a high level list of the technologies used for this app:
 
 ## Deploy on Heroku
 
-To deploy the *Young Professionals Outlet App* on **Heroku** follow the instructions in the [**README_DEPLOYMENT**](https://github.com/katerina-tziala/young-professionals-outlet/blob/master/README_DEPLOYMENT.md) file.
+To deploy the *Young Professionals Outlet App* on **Heroku** follow the instructions in the [**DEPLOYMENT.md**](https://github.com/katerina-tziala/young-professionals-outlet/blob/master/DEPLOYMENT.md) file.

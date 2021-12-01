@@ -1,7 +1,14 @@
 {
   "name": "young-professionals-outlet",
   "version": "1.0.0",
+  "description": "Young Professionals Outlet - eCommerce PWA with React",
   "private": true,
+  "keywords": [
+    "react",
+    "progressive-web-app",
+    "single-page-application",
+    "e-commerce"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/katerina-tziala/young-professionals-outlet"
