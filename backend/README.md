@@ -14,6 +14,6 @@ Simple server using NodeJs and ExpressJS to serve the frontend side of the *Youn
 
 4. To start the server for development, run in this directory: ``` npm watch ``` 
 
-5. To serve the frontend side of the app, build the frontend and copy the **build** folder in this directory.
+5. To serve the frontend side of the app, build the frontend app and copy the **build** folder in this directory.
 
 6. Access the app locally at: http://localhost:3001/
