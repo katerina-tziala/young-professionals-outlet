@@ -42,7 +42,6 @@ To deploy the *Young Professionals Outlet App* on **Heroku** use your terminal f
    ```
 
 2. To install the dependencies for the app, run from the project's root directory: ``` npm install  ``` or  ``` npm i  ```
-    ```
 
 3. Make sure the **dependencies** for the **frontend** and the **backend** sides of the app are installed.
 
