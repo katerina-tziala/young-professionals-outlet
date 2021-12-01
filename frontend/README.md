@@ -1,4 +1,4 @@
-# YOUNG PROFESSIONALS OUTLET - FRONTEND
+# <img src="https://github.com/katerina-tziala/young-professionals-outlet/blob/master/app/build/logo192.png" alt="ypo logo" width="44" height="44" align="left">Young Professionals Outlet - Frontend
 
 A Progressive Web App for e-commerce using React.js and the [fakestoreapi](https://fakestoreapi.com/).
 
@@ -7,24 +7,9 @@ A Progressive Web App for e-commerce using React.js and the [fakestoreapi](https
 
 1. Fork and clone this repository.
 
-2. To install the dependencies of the app, run in this directory:
+2. To install the dependencies of the app, run in this directory: ``` npm install  ``` or  ``` npm i  ```
 
-    ```
-    npm install
-    ```
-
-    or
-
-    ```
-    npm i
-    ```
-    
-
-3. To start the app, run  in the project directory:
-
-    ```
-    npm start
-    ``` 
+3. To start the app, run  in the project directory: ``` npm start ``` 
 
 4. Access the app locally at: http://localhost:3000/
 

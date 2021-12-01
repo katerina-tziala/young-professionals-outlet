@@ -3,7 +3,9 @@
 A Progressive Web App for e-commerce using React.js and the [fakestoreapi](https://fakestoreapi.com/).</br>
 Access the *Young Professionals Outlet App* here: [**Young Professionals Outlet**](https://young-professionals-outlet.herokuapp.com/)
 
+## Prerequisites
 
+Node version >= 12.13.0
 
 ## Repository Structure
 

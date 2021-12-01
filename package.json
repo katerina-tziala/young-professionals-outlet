@@ -27,7 +27,6 @@
     "logs:prod": "heroku logs --tail"
   },
   "devDependencies": {
-    "move-cli": "^1.2.1",
     "ncp": "^2.0.0",
     "rimraf": "^3.0.2"
   }

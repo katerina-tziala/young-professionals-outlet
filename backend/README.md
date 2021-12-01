@@ -1,4 +1,4 @@
-# YOUNG PROFESSIONALS OUTLET - BACKEND
+# # <img src="https://github.com/katerina-tziala/young-professionals-outlet/blob/master/app/build/logo192.png" alt="ypo logo" width="44" height="44" align="left">Young Professionals Outlet - Backend
 
 Simple server using NodeJs and ExpressJS to serve the frontend side of the *Young Professionals Outlet App*.
 
@@ -7,30 +7,12 @@ Simple server using NodeJs and ExpressJS to serve the frontend side of the *Youn
 
 1. Fork and clone this repository.
 
-2. To install the dependencies of the app, run in this directory:
-
-    ```
-    npm install
-    ```
-
-    or
-
-    ```
-    npm i
-    ```
+2. To install the dependencies of the app, run in this directory: ``` npm install  ``` or  ``` npm i  ```
     
 
-3. To start the server, run in this directory:
+3. To start the server, run in this directory: ``` npm start ``` 
 
-    ```
-    npm start
-    ``` 
-
-4. To start the server for development, run in this directory:
-
-    ```
-    npm watch
-    ``` 
+4. To start the server for development, run in this directory: ``` npm watch ``` 
 
 5. To serve the frontend side of the app, build the frontend and copy the **build** folder in this directory.
 
