@@ -21,12 +21,13 @@
     "copy-backend-package": "ncp backend/package.json app/package.json",
     "copy-procfile": "ncp Procfile app/Procfile",
     "build-backend": "npm run copy-backend-index && npm run copy-backend-package && npm run copy-procfile",
-    "frontend-dev": "cd frontend && npm run build --prod && move build ../backend/build",
+    "frontend-dev": "cd frontend && npm run build --prod && rimraf backend/build/* && move build ../backend/build",
     "build-frontend": "cd frontend && npm run build --prod && move build ../app/build",
     "build": "npm run prebuild && npm run build-backend && npm run build-frontend",
     "logs:prod": "heroku logs --tail"
   },
   "devDependencies": {
+    "move-cli": "^2.0.0",
     "ncp": "^2.0.0",
     "rimraf": "^3.0.2"
   }
