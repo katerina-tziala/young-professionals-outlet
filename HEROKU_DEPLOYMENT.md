@@ -41,32 +41,17 @@ To deploy the *Young Professionals Outlet App* on **Heroku** use your terminal f
    "proxy": "https://git.heroku.com/young-professionals-outlet.git"
    ```
 
-2. To install the dependencies for the app, run from the project's root directory:
-
-    ```
-    npm install
-    ```
-    or
-
-    ```
-    npm i
+2. To install the dependencies for the app, run from the project's root directory: ``` npm install  ``` or  ``` npm i  ```
     ```
 
-3. Make sure the dependencies for the frontend and backend sides of the app are installed.
+3. Make sure the **dependencies** for the **frontend** and the **backend** sides of the app are installed.
 
 
-5. To build the app, run from the project's root directory:
-
-    ```
-    npm run build
-    ```
+5. To build the app, run from the project's root directory: ```  npm run build ```
 
 6. Commit your changes on your own repo on [**GitHub**](https://github.com/) for this app, maintaining the structure of this repository.
 
-7. To login in your **Heroku** account, run:
-    ```
-    heroku login
-    ```
+7. To login in your **Heroku** account, run: ``` heroku login  ```
 
 8. Run ***git subtree push --prefix app heroku master*** to deploy the *Young Professionals Outlet App* from the **app** directory of this repository on **Heroku**.
 
