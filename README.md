@@ -21,13 +21,13 @@ This repository contains two sub-directories:
 
 Here’s a high level list of the technologies used for this app:
 
-* **React**: For the development of the frontend of the *Young Professionals Outlet App* Frontend.
+* **[React](https://reactjs.org/)**: For the development of the frontend of the *Young Professionals Outlet App* Frontend.
 
-* **NodeJS and Express**: For the development of the *Young Professionals Outlet* Backend.
+* **[NodeJS](https://nodejs.org/en/) and [Express](https://www.npmjs.com/package/express)**: For the development of the *Young Professionals Outlet* Backend.
 
-* **Heroku**: A cloud platform to deploy the app on the internet.
+* **[**Heroku**](https://www.heroku.com/platform)**: A cloud platform to deploy the app on the internet.
 
 
 ## Deploy on Heroku
 
-To deploy the *Young Professionals Outlet App* on **Heroku** follow the instructions in the [**HEROKU_DEPLOYMENT.md**](https://github.com/katerina-tziala/young-professionals-outlet/blob/master/HEROKU_DEPLOYMENT.md) file.
+To deploy the *Young Professionals Outlet App* on [**Heroku**](https://www.heroku.com/platform) follow the instructions in the [**HEROKU_DEPLOYMENT.md**](https://github.com/katerina-tziala/young-professionals-outlet/blob/master/HEROKU_DEPLOYMENT.md) file.
