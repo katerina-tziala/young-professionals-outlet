@@ -1,4 +1,4 @@
-# # <img src="https://github.com/katerina-tziala/young-professionals-outlet/blob/master/app/build/logo192.png" alt="ypo logo" width="44" height="44" align="left">Young Professionals Outlet - Backend
+# :rocket: Young Professionals Outlet - Backend
 
 Simple server using NodeJs and ExpressJS to serve the frontend side of the *Young Professionals Outlet App*.
 
