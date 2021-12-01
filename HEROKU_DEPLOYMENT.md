@@ -1,4 +1,4 @@
-# Deploy the Young Professionals Outlet App on Heroku
+# :globe_with_meridians: Deploy on Heroku
 
 The *Young Professionals Outlet App* is deployed on [**Heroku Platform**](https://www.heroku.com/platform) from the **app** directory. To deploy this app on **Heroku** according to the following directions, make sure that you maintain the structure of this repository.<br/>
 **Note:** The **Procfile** in the root directory is required to specify the required commands for **Heroku**  to run and start your app and must be copied in the **app** directory!
