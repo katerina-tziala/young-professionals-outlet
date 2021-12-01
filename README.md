@@ -21,11 +21,11 @@ This repository contains two sub-directories:
 
 Here’s a high level list of the technologies used for this app:
 
-* **[React](https://reactjs.org/)**: For the development of the frontend of the *Young Professionals Outlet App* Frontend.
+* [React](https://reactjs.org/): For the development of the frontend of the *Young Professionals Outlet App* Frontend.
 
-* **[NodeJS](https://nodejs.org/en/) and [Express](https://www.npmjs.com/package/express)**: For the development of the *Young Professionals Outlet* Backend.
+* [NodeJS](https://nodejs.org/en/) and [Express](https://www.npmjs.com/package/express): For the development of the *Young Professionals Outlet* Backend.
 
-* **[**Heroku**](https://www.heroku.com/platform)**: A cloud platform to deploy the app on the internet.
+* [**Heroku**](https://www.heroku.com/platform): A cloud platform to deploy the app on the internet.
 
 
 ## Deploy on Heroku
