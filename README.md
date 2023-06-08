@@ -19,8 +19,6 @@ This repository contains two sub-directories:
 
 * [**backend**](https://github.com/katerina-tziala/young-professionals-outlet/tree/master/backend)**:** This directory contains the source code of the developed backend side of the *Young Professionals Outlet App*. 
 
-* [**app**](https://github.com/katerina-tziala/young-professionals-outlet/tree/master/app)**:** This directory is set as the git remote for the *Heroku Young Professionals Outlet App*. The files in this directory are required from **Heroku** to deploy the *Young Professionals Outlet App* online.
-
 ## Technologies
 
 Here’s a high level list of the technologies used for this app:
@@ -28,10 +26,3 @@ Here’s a high level list of the technologies used for this app:
 * [React](https://reactjs.org/): For the development of the frontend of the *Young Professionals Outlet App* Frontend.
 
 * [NodeJS](https://nodejs.org/en/) and [Express](https://www.npmjs.com/package/express): For the development of the *Young Professionals Outlet* Backend.
-
-* [Heroku](https://www.heroku.com/platform): A cloud platform to deploy the app on the internet.
-
-
-## Deploy on Heroku
-
-To deploy the *Young Professionals Outlet App* on [**Heroku**](https://www.heroku.com/platform) follow the instructions in the [**HEROKU_DEPLOYMENT.md**](https://github.com/katerina-tziala/young-professionals-outlet/blob/master/HEROKU_DEPLOYMENT.md) file.
